@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lemon&family=Mogra&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="CSS/stylecontact.css" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
+    <title>Contact Me</title>
+
+</head>
+
+<!-- Interactive Nav Bar -->
+
+<body>
+    <header class="navigation">
+        <div class="inline-block logo">
+            <a href="index.html"><img src="Images/logo1.png" alt="logo" height="auto" width="100%"></a>
+        </div>
+
+        <nav class="inline-block ul navbar">
+            <ul>
+                <li class="inline-block"><a href="index.html">HOME</a></li>
+                <li class="inline-block"><a href="indexProj.html">PROJECTS</a>
+                    <ul id="submenu">
+                        <li><a href="indexJ.html">MR. J'S BAGELS AND DELI</a></li>
+                        <li><a href="indexW.html">LITTLE WANDERERS NYC</a></li>
+                        <li><a href="indexE.html">EVENTURE</a></li>
+                        <li><a href="indexD.html">DAYCAY</a></li>
+                    </ul>
+                </li>
+                <li class="inline-block"><a href="indexR.html">RÉSUMÉ</a></li>
+                <li class="inline-block"><a href="indexcontact.html" class="active">CONTACT</a></li>
+
+            </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact">
+       <div class="contact-form">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="50a3a0d1-7394-4ea3-8c6c-5855b75918a4">
+       <form>
+            <h1>Let's Work Together!</h1>
+        <p>If you have any <span>questions</span> or would like to <span>work together</span>, feel free to reach out to me via this page or <u><a href="https://www.linkedin.com/in/rachel-macdonald-she-her-5ba188163">LinkedIn!</a></u></p>
+        <h5>First Name <span class="required">*</span></h5>
+        <input type="text" id="firstName" class="textbox" name='First_Name' placeholder=" First Name" required>
+        <h5>Last Name <span class="required">*</span></h5>
+        <input type="text" name='Last_Name'id="lastName" class="textbox" placeholder=" Last Name" required>
+        <h5>Email Address <span class="required">*</span></h5>
+
+        <input type="email" id="email" class="textbox" name="Email" placeholder=" youremail@email.com" required>
+        <h5>Type your message here...<span class=required>*</span></h5>
+        <textarea name="Message" placeholder="Type your message here" required></textarea>
+        <div class="buttonsend">
+        <input type="submit" value="Send" id="button"></div>
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+    </form>
+   </div>
+    </section>
+
+    <footer class="sr">
+        <section id="contactFoot">
+            <a href=https://www.linkedin.com/in/rachel-macdonald-she-her-5ba188163>
+                <img src="Images/linkedin-app-white-icon.png" width="35px" height="35px"></a>
+            <a href="https://www.linkedin.com/in/rachel-macdonald-she-her-5ba188163"><p class="contactText"> Thank you for visiting my portfolio! Feel free to reach out on <u>LinkedIn!</u></p></a>
+            </div>
+            <div class="copyright">
+                <p class="inline-block copyright">© Rachel MacDonald 2024</p>
+                </p>
+            </div>
+        </section>
+    </footer>
