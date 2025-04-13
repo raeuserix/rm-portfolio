@@ -40,7 +40,12 @@ h1 {
     color:#FFFFFF; }
 
     .crumbs a {
-        color:#0036b4;
+        color:#0075b4;
+        font-weight:500;
+    }
+
+    .crumbs {
+        font-size:13px;
     }
 
 .informationtext {

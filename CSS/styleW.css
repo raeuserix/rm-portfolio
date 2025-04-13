@@ -19,6 +19,10 @@ html {
     font-weight: 600;
 }
 
+.color {
+    color:#0075b4;
+}
+
 .anchor a {
     color:#0075b4;
     text-decoration: underline;
@@ -101,10 +105,11 @@ h5 {
     padding-top:7px;
     font-weight:700;
     padding-bottom:30px;
+    font-size: 13px;
 }
 
 .crumbs a {
-color:#0036b4;
+color:#0075b4;
 font-weight:500;
 }
 
