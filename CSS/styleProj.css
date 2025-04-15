@@ -245,6 +245,11 @@ li:hover ul#submenu {
 
 }
 
+.bootcamp {
+    color:#484848;
+    font-size:11px;
+   }
+
 .containerGrid p {
     line-height:25px;
 }
@@ -501,9 +506,11 @@ button:active {
     padding-right:50px;
     padding-top:50px;
     /* transition: all .3s ease-in-out; */
+}
 
-   }
-
+.projectDescription h2 {
+    padding-bottom:5px;
+}
    /* .projectDescription:hover{
     transform: scale(1.02);
    } */

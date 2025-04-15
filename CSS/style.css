@@ -505,12 +505,20 @@ button:active {
 
    .h2 {
     font-size:19.5px;
-    color:#333333;
+    color:#2c2c2c;
 
    }
 
+
    .containerGrid1 h2 {
-    padding-bottom:15px;}
+    padding-bottom:5px;
+   }
+
+   .containerGrid1 h6 {
+    padding-bottom:15px;
+    color:#484848;
+    font-size:11px;
+   }
 /*My Skills*/
 
 #mySkills {
